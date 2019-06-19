@@ -1,0 +1,9 @@
+alias la='ls -A'
+alias lh='ls -h'
+alias ll='ls -l'
+alias ls='ls -G --color'
+
+alias build='mvn package'
+alias run='java -jar target/type-system-java-1.0-SNAPSHOT.jar'
+alias run-tests='mvn test'
+alias clean='mvn clean'

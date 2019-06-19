@@ -1,3 +1,4 @@
 image: maven
 tasks:
+    - before: source .profile
     - init: mvn eclipse:eclipse package -DskipTests
