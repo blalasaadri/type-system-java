@@ -2,4 +2,4 @@ image:
   file: .gitpod.dockerfile
 tasks:
     - init: mvn eclipse:eclipse package -DskipTests
-    - commands: jshell
+    - command: jshell
