@@ -1,4 +1,5 @@
-image: maven
+image:
+  file: .gitpod.dockerfile
 tasks:
-    - before: source .profile
     - init: mvn eclipse:eclipse package -DskipTests
+    - command: jshell
