@@ -10,6 +10,6 @@ public class App
     {
         System.out.println("Hello World!" );
 
-        System.out.println("The maximum of 2 and 5 is " + Templates.getMax(2, 5));
+        System.out.println("The maximum of 2 and 5 is " + Generics.getMax(2, 5));
     }
 }

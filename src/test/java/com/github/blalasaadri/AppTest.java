@@ -2,19 +2,14 @@ package com.github.blalasaadri;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.Test;;
+import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
+class AppTest {
     /**
-     * Rigorous Test :-)
+     * Rigorous Test ;-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    void shouldAnswerWithTrue() {
+        assertTrue(true);
     }
 }
