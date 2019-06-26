@@ -22,7 +22,7 @@ Here are some resources that can help you look into the Java type system.
    ```
    to also get the type signatures or
    ```shell
-   $ javap -Coin target/classes/com/github/blalasaadri/App.class
+   $ javap -c target/classes/com/github/blalasaadri/App.class
    ```
    to see the full, disassebled code.
    This can be especially interesting in combination with Generics and Type Erasure.
